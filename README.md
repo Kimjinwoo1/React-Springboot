@@ -1,4 +1,4 @@
-# Reat-Springboot 연동 실습
+# Reat-Springboot 연동 연습
 
 ### 스프링부트
 
