@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VAz9ULRDEe6hkPUEJt07cQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_VAz9UbRDEe6hkPUEJt07cQ" bindingContexts="_VAz9WrRDEe6hkPUEJt07cQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookApplication.java&quot; tooltip=&quot;book-backend/src/main/java/com/cos/book/BookApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/book-backend/src/main/java/com/cos/book/BookApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookControllerIntegreTest.java&quot; tooltip=&quot;book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookControllerIntegreTest.java&quot; tooltip=&quot;book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookService.java&quot; tooltip=&quot;book-backend/src/main/java/com/cos/book/service/BookService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/book-backend/src/main/java/com/cos/book/service/BookService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookApplication.java&quot; tooltip=&quot;book-backend/src/main/java/com/cos/book/BookApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/book-backend/src/main/java/com/cos/book/BookApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_VAz9UbRDEe6hkPUEJt07cQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_XCSs47RDEe6hkPUEJt07cQ" label="%trimmedwindow.label.eclipseSDK" x="903" y="85" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_VAz9UbRDEe6hkPUEJt07cQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_XCSs47RDEe6hkPUEJt07cQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -10,6 +10,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1705391194260"/>
     <tags>topLevel</tags>
+    <tags>shellMinimized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_XCSs47RDEe6hkPUEJt07cQ" selectedElement="_XCUiELRDEe6hkPUEJt07cQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_XCUiELRDEe6hkPUEJt07cQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_XQmOo7RDEe6hkPUEJt07cQ">
         <children xsi:type="advanced:Perspective" xmi:id="_XQmOo7RDEe6hkPUEJt07cQ" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_XQmOpLRDEe6hkPUEJt07cQ" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -56,15 +57,9 @@
           <tags>persp.newWizSC:org.eclipse.ui.editors.wizards.UntitledTextFileWizard</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaBrowsingPerspective</tags>
           <tags>persp.perspSC:org.eclipse.debug.ui.DebugPerspective</tags>
-          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>
-          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
           <tags>persp.showIn:org.eclipse.jdt.ui.PackageExplorer</tags>
           <tags>persp.showIn:org.eclipse.team.ui.GenericHistoryView</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
-          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
-          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
           <tags>persp.actionSet:org.eclipse.jdt.debug.ui.JDTDebugActionSet</tags>
           <tags>persp.newWizSC:org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard</tags>
@@ -77,12 +72,19 @@
           <tags>persp.viewSC:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
           <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>
+          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
+          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
+          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_XQmOpLRDEe6hkPUEJt07cQ" selectedElement="_XQmOpbRDEe6hkPUEJt07cQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_XQmOpbRDEe6hkPUEJt07cQ" containerData="2500" selectedElement="_XQmOprRDEe6hkPUEJt07cQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_XQmOprRDEe6hkPUEJt07cQ" containerData="6000" selectedElement="_XQmOp7RDEe6hkPUEJt07cQ">
                 <children xsi:type="basic:PartStack" xmi:id="_XQmOp7RDEe6hkPUEJt07cQ" elementId="left" containerData="6600" selectedElement="_XQmOqLRDEe6hkPUEJt07cQ">
                   <tags>org.eclipse.e4.primaryNavigationStack</tags>
                   <tags>active</tags>
+                  <tags>noFocus</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_XQmOqLRDEe6hkPUEJt07cQ" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_XQQQhrRDEe6hkPUEJt07cQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Java</tags>
@@ -214,17 +216,23 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_XQLX4LRDEe6hkPUEJt07cQ" elementId="org.eclipse.ui.editorss" selectedElement="_XQLX4bRDEe6hkPUEJt07cQ">
-      <children xsi:type="basic:PartStack" xmi:id="_XQLX4bRDEe6hkPUEJt07cQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_hK7hELRUEe6hkPUEJt07cQ">
+      <children xsi:type="basic:PartStack" xmi:id="_XQLX4bRDEe6hkPUEJt07cQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_nUc3ULREEe6hkPUEJt07cQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_nUc3ULREEe6hkPUEJt07cQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BookControllerIntegreTest.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookControllerIntegreTest.java&quot; partName=&quot;BookControllerIntegreTest.java&quot; title=&quot;BookControllerIntegreTest.java&quot; tooltip=&quot;book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1593&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookControllerIntegreTest.java&quot; partName=&quot;BookControllerIntegreTest.java&quot; title=&quot;BookControllerIntegreTest.java&quot; tooltip=&quot;book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/book-backend/src/test/java/com/cos/book/web/BookControllerIntegreTest.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1593&quot; selectionTopPixel=&quot;120&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_hK7hELRUEe6hkPUEJt07cQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BookApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookApplication.java&quot; partName=&quot;BookApplication.java&quot; title=&quot;BookApplication.java&quot; tooltip=&quot;book-backend/src/main/java/com/cos/book/BookApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/book-backend/src/main/java/com/cos/book/BookApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_oY0XkLwJEe6bhtm2At0EYw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BookService.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookService.java&quot; partName=&quot;BookService.java&quot; title=&quot;BookService.java&quot; tooltip=&quot;book-backend/src/main/java/com/cos/book/service/BookService.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/book-backend/src/main/java/com/cos/book/service/BookService.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;571&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -390,7 +398,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XHR6krRDEe6hkPUEJt07cQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XHWzF7RDEe6hkPUEJt07cQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_VBqSZrRDEe6hkPUEJt07cQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_mVmioLwJEe6bhtm2At0EYw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VBqSZrRDEe6hkPUEJt07cQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XHR6k7RDEe6hkPUEJt07cQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -398,8 +406,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XHR6lbRDEe6hkPUEJt07cQ" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XHWzHbRDEe6hkPUEJt07cQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_VBlZybRDEe6hkPUEJt07cQ"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XHZ2YLRDEe6hkPUEJt07cQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_VBlaPLRDEe6hkPUEJt07cQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_mVnwwLwJEe6bhtm2At0EYw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_VBlZybRDEe6hkPUEJt07cQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_mVo-4LwJEe6bhtm2At0EYw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_VBlaPLRDEe6hkPUEJt07cQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XHR6lrRDEe6hkPUEJt07cQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -423,7 +431,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XHR6mrRDEe6hkPUEJt07cQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XHZ2ZrRDEe6hkPUEJt07cQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VBqSIbRDEe6hkPUEJt07cQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_mVo-5rwJEe6bhtm2At0EYw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_VBqSIbRDEe6hkPUEJt07cQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_XHR6m7RDEe6hkPUEJt07cQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
