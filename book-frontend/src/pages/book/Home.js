@@ -9,7 +9,6 @@ const Home = () => {
         fetch("http://localhost:8080/book")
             .then(res => res.json())
             .then(res => {
-                console.log(1, res)
                 setBooks(res)
             });
     }, [])
