@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <div>
-            {books.map((book) => (<BookItem />))}
+            {books.map((book) => (<BookItem key={book.id} book={book} />))}
         </div>
     )
 }
