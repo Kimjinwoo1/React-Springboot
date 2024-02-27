@@ -18,27 +18,49 @@ const SaveForm = () => {
         })
     }
 
-    const submitBook = (e) => {
+    // const submitBook = (e) => {
+    //     e.preventDefault();
+    //     fetch("http://localhost:8080/book", {
+    //         method: "POST",
+    //         headers: {
+    //             "Content-Type": "application/json; charset=utf-8"
+    //         },
+    //         body: JSON.stringify(book)
+    //     }).then(res => {
+    //         if (res.status === 201) {
+    //             return res.json()
+    //         } else {
+    //             return null
+    //         }
+    //     }).then(res => { 
+    //         if (res !== undefined && res !== null) {
+    //             navigate('/')
+    //         } else {
+    //             alert('책 등록에 실패하였습니다.')
+    //         }
+    //     });
+    // }
+
+    const submitBook = async (e) => {
         e.preventDefault();
-        fetch("http://localhost:8080/book", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json; charset=utf-8"
-            },
-            body: JSON.stringify(book)
-        }).then(res => {
+        try {
+            const res = await fetch("http://localhost:8080/book", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json; charset=utf-8"
+                },
+                body: JSON.stringify(book)
+            });
+
             if (res.status === 201) {
-                return res.json()
-            } else {
-                return null
-            }
-        }).then(res => {
-            if (res !== undefined && res !== null) {
+                const data = await res.json();
                 navigate('/')
             } else {
                 alert('책 등록에 실패하였습니다.')
             }
-        });
+        } catch (error) {
+            alert("책 등록에 실패하였습니다.")
+        }
     }
 
     return (
