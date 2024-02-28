@@ -23,6 +23,8 @@ const Detail = () => {
     return (
         <div>
             <h1>책 상세보기</h1>
+            <button type="button" class="btn btn-warning">수정</button>
+            <button type="button" class="btn btn-danger">삭제</button>
             <hr />
             <h3>{book.author}</h3>
             <h1>{book.title}</h1>
