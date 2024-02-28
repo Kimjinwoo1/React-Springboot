@@ -5,7 +5,7 @@ const Detail = () => {
 
     const { id } = useParams()
 
-    const detailNavigate = useNavigate()
+    const dubleNavigate = useNavigate()
 
     const [book, setBook] = useState({
         id: "",
@@ -28,17 +28,21 @@ const Detail = () => {
             .then(res => res.text())
             .then(res => {
                 if (res === "ok") {
-                    detailNavigate("/")
+                    dubleNavigate("/")
                 } else {
                     alert('삭제를 실패했습니다')
                 }
             })
     }
 
+    const updateBtn = () => {
+        dubleNavigate('/updateForm/' + id)
+    }
+
     return (
         <div>
             <h1>책 상세보기</h1>
-            <button type="button" class="btn btn-warning">수정</button>
+            <button type="button" class="btn btn-warning" onClick={updateBtn}>수정</button>
             <button type="button" class="btn btn-danger" onClick={deleteBtn}>삭제</button>
             <hr />
             <h3>{book.author}</h3>
