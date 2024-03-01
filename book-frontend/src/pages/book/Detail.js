@@ -21,18 +21,35 @@ const Detail = () => {
             })
     }, [id])
 
-    const deleteBtn = () => {
-        fetch("http://localhost:8080/book/" + id, {
-            method: "DELETE"
-        })
-            .then(res => res.text())
-            .then(res => {
-                if (res === "ok") {
-                    dubleNavigate("/")
-                } else {
-                    alert('삭제를 실패했습니다')
-                }
+    // const deleteBtn = () => {
+    //     fetch("http://localhost:8080/book/" + id, {
+    //         method: "DELETE"
+    //     })
+    //         .then(res => res.text())
+    //         .then(res => {
+    //             if (res === "ok") {
+    //                 dubleNavigate("/")
+    //             } else {
+    //                 alert('삭제를 실패했습니다')
+    //             }
+    //         })
+    // }
+
+    const deleteBtn = async () => {
+        try {
+            const response = await fetch(`http://localhost:8080/book/${id}`, {
+                method: "DELETE"
             })
+            const answer = await response.text();
+            if (answer === "ok") {
+                alert('삭제에 성공하였습니다.')
+                dubleNavigate('/')
+            } else {
+                alert('삭제를 실패하였습니다.')
+            }
+        } catch (error) {
+            alert('삭제 중 에러가 발생했습니다.')
+        }
     }
 
     const updateBtn = () => {
